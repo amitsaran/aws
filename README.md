@@ -18,7 +18,7 @@
 
 # S3
 1. S3 endpoint url: \
-   http://localhost:4572 
+   http://localhost:4572 or http://localhost:4566
 2. Create a bucket: \
     aws --endpoint-url=http://localhost:4572 s3api create-bucket --bucket my-bucket
 3. Attach an ACL: \
@@ -26,10 +26,17 @@
 4. List all s3 buckets: \
    aws --endpoint-url=http://localhost:4572 s3api list-buckets
    aws --endpoint-url=http://localhost:4572 s3 ls
-5. List files in s3 bucket: \
-   aws --endpoint-url=http://localhost:4572 s3 ls s3://my-bucket
-6. Upload/copy file from local to s3 bucket: \
+5. Upload/copy file from local to s3 bucket: \
    aws --endpoint-url=http://localhost:4572 s3 cp ~/Downloads/problem.txt s3://my-bucket
-7. Download/Copy from s3 bucket to local folder: \
+6. Download/Copy from s3 bucket to local folder: \
    aws --endpoint-url=http://localhost:4572 s3 cp s3://my-bucket/problem.txt ~/Downloads/aws-test
-8. List the files using #5: \
+7. List the files in bucket: \
+   CLI: aws --endpoint-url=http://localhost:4572 s3 ls s3://my-bucket \
+   Bowser: http://localhost:4572/my-bucket 
+8. Contents of a file: \
+   Browser: http://localhost:4572/my-bucket/problem.txt 
+
+# serverless
+The Serverless Framework is a node-based package, so we need to install it on our system. \
+    npm config set prefix /usr/local \
+    npm i -g serverless 
