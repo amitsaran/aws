@@ -34,7 +34,7 @@
 8. Contents of a file: \
    Browser: http://localhost:4572/my-bucket/problem.txt 
 
-# serverless
+# lambda
 The Serverless Framework is a node-based package, so we need to install it on our system. \
     npm config set prefix /usr/local \
     npm i -g serverless 
