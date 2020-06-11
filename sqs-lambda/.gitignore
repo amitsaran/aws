@@ -1,0 +1,8 @@
+*
+!src
+!src/*
+!docker-compose.yml
+!init.sh
+!.gitignore
+
+
