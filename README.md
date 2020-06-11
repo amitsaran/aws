@@ -1,6 +1,4 @@
 # aws-localstack
-
-# aws-localstack
     https://github.com/localstack/localstack
 
 # environemnt setup
