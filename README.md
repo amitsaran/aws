@@ -54,6 +54,8 @@
    1. Creates a lambda function
    2. Creates a SQS 
    3. Map the event to the lambda function, so that when the queue receives a message, the lambda function is triggerred.   
+* run docker-compose up
+* The deployed resources can be accessed at: http://localhost:9070/#!/infra
 * Excute lamda function:
    1. aws --endpoint-url=http://localhost:4574 lambda invoke --function-name demoLambda outfile.txt
    2. From sqs by sending a message to the queue:
