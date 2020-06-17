@@ -1,0 +1,40 @@
+@startuml
+start
+    legend
+        |= Certification |= Domain |= Topic |= Percentage |= Service |
+        <#LightPink>| SOA |  |  AWS Certified SysOps Administrator – Associate(SOA-C01) | |
+        <#LightPink>|  |  |  | |
+        <#LightPink>|  |  Domain 1 | Monitoring and Reporting | 22% | |
+        <#LightPink>|  | 1.1 | Create and maintain metrics and alarms utilizing AWS monitoring services | |
+        <#LightPink>|  | 1.2 | Recognize and differentiate performance and availability metrics | |
+        <#LightPink>|  | 1.3 | Perform the steps necessary to remediate based on performance and availability metrics | |
+        <#LightPink>|  | |  | |
+        <#LightPink>|  |  Domain 2 | High Availability | 8% | |
+        <#LightPink>|  | 2.1 | Implement scalability and elasticity based on use case | |
+        <#LightPink>|  | 2.2 | Recognize and differentiate highly available and resilient environments on AWS | |
+        <#LightPink>|  |  |  |
+        <#LightPink>|  |  Domain 3 | Deployment and Provisioning | 14%| |
+        <#LightPink>|  | 3.1 | Identify and execute steps required to provision cloud resources |  | |
+        <#LightPink>|  | 3.2 | Identify and remediate deployment issues |  | |
+        <#LightPink>|  |  |  |  | |
+        <#LightPink>|  |  Domain 4 | Storage and Data Management | 12% | |
+        <#LightPink>|  | 4.1 | Create and manage data retention | | |
+        <#LightPink>|  | 4.2 | Identify and implement data protection, encryption, and capacity planning needs | | |
+        <#LightPink>|  |  |  | | |
+        <#LightPink>|  |  Domain 5 | Security and Compliance | | 18% |
+        <#LightPink>|  | 5.1 | Implement and manage security policies on AWS | | |
+        <#LightPink>|  | 5.2 | Implement access controls when using AWS | | |
+        <#LightPink>|  | 5.3 | Differentiate between the roles and responsibility within the shared responsibility model | | |
+        <#LightPink>|  |  |  | | |
+        <#LightPink>|  |  Domain 6 | Networking | 14% | |
+        <#LightPink>|  | 6.1 | Apply AWS networking features | | |
+        <#LightPink>|  | 6.2 | Implement connectivity services of AWS | | |
+        <#LightPink>|  | 6.3 | Gather and interpret relevant information for network troubleshooting | | |
+        <#LightPink>|  |  |  | | |
+        <#LightPink>|  |  Domain 7 | Automation and Optimization | 12% | |
+        <#LightPink>|  | 7.1 | Use AWS services and features to manage and assess resource utilization | | |
+        <#LightPink>|  | 7.2 | Employ cost-optimization strategies for efficient resource utilization | | |
+        <#LightPink>|  | 7.3 | Automate manual or repeatable process to minimize management overhead | | |
+        <#LightPink>|  |  |  | | |
+    endlegend
+@enduml
