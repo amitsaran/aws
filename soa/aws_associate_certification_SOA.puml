@@ -21,7 +21,7 @@ start
         <#LightPink>|  | 4.1 | Create and manage data retention | | |
         <#LightPink>|  | 4.2 | Identify and implement data protection, encryption, and capacity planning needs | | |
         <#LightPink>|  |  |  | | |
-        <#LightPink>|  |  Domain 5 | Security and Compliance | | 18% |
+        <#LightPink>|  |  Domain 5 | Security and Compliance | 18% | |
         <#LightPink>|  | 5.1 | Implement and manage security policies on AWS | | |
         <#LightPink>|  | 5.2 | Implement access controls when using AWS | | |
         <#LightPink>|  | 5.3 | Differentiate between the roles and responsibility within the shared responsibility model | | |
