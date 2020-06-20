@@ -1,4 +1,4 @@
-# aws
+# DevOps - AWS 
 
 ## aws certification
 [AWS Certification Exam Link - Amazon Website](https://aws.amazon.com/certification/certification-prep/)
@@ -30,7 +30,8 @@
 
 [Custom aws description](#aws)
 
-[devops](./soa/README.md#DevOps---AWS)
+[devops](#DevOps---AWS)
+
 
 vpc
 subnet - private, public
