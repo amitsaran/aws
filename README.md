@@ -1,7 +1,7 @@
 # aws
 
 * [Developer](./dva/README.md)
-  * [s3-boto3](./s3-boto3/README.md#DevOps---AWS)
+  * [S3 Operations - boto3](./s3-boto3/README.md)
 * [Solutions Architect](./certification/README.md)
 * [DevOps](./certification/README.md#DevOps---AWS)
   * [Infrastructure as Code](./certification/README.md#DevOps---AWS)
